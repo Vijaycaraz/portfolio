@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #left{
+            position: absolute;
+            border: black ;
+            height: 500px;
+            width: 300px;
+            background-color: blue;
+            top: 75px;
+            left: 212px;
+            border-top-left-radius: 21px;
+            border-bottom-left-radius: 21px;
+            
+
+        }
+        #right{
+            position: absolute;
+            border:  black ;
+            height: 500px;
+            width: 300px;
+            background-color: red;
+            left: 831px;
+            top: 75px;
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 21px;
+
+        }
+        #middle{
+            position: absolute;
+            border:  black;
+            height: 550px;
+            width: 325px;
+            background-color: green;
+            left: 512px;
+            top: 50px;
+            border-radius: 20px;
+
+        }
+        .sign{
+            position: absolute;
+            font-size: 50px;
+            color: rgb(11, 182, 11);
+            top: 105px;
+            left: 95px;
+        }
+        .sign2{
+            position: absolute;
+            font-size: 50px;
+            color: red;
+            top: 105px;
+            left: 95px;
+        }
+        .sign3{
+            position: absolute;
+            font-size: 50px;
+            color: rgb(196, 20, 196);
+            top: 100px;
+            left: 105px;
+        }
+        #top1{
+            position: absolute;
+            background-color:white;
+            height: 230px;
+            width: 300px;
+            border-top-left-radius: 20px;
+        }
+        #top3{
+            position: absolute;
+            background-color: white;
+            height: 255px;
+            width: 325px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+        #top2{
+            position: absolute;
+            background-color:white;
+            height: 230.5px;
+            width: 300px;
+            border-top-right-radius: 20px;
+        }
+        #bottom1{
+            position: absolute;
+            width: 300px;
+            height: 270px;
+            top: 230px;
+            background-image: url(/ass-12/green.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom-left-radius: 20px;
+        }
+        #bottom2{
+            position: absolute;
+            width: 300px;
+            height: 270px;
+            top: 230px;
+            background-image: url(/ass-12/WhatsApp\ Image\ 2024-03-22\ at\ 10.39.17\ AM.jpeg );
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-bottom-right-radius: 20px;
+        }
+        #bottom3{
+            position: absolute;
+            width: 325px;
+            height: 295px;
+            top: 255px;
+            background-image: url(/ass-12/Violet.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        p{
+            color:black;
+        }
+        #p1{
+            padding-top:150px;
+            font-size: larger;
+            padding-right: 20px;
+        }
+        #p2{
+            padding-top:150px;
+            font-size: larger;
+            padding-right: 20px;
+        }
+        #p3{
+            padding-top:150px;
+            font-size: larger;
+            padding-right: 25px;
+        }
+        #hea1{
+            color: white;
+        }
+        input{
+            height: 30px;
+            width: 130px;
+            border-radius: 15px;
+            border-color: white;
+            background-color: white;
+            text-transform: uppercase;
+        }
+        i{
+            color: white;
+        }
+        td{
+            color: white;
+        }
+        #in1{
+            margin-right: 20px;
+            color:rgb(29, 252, 0) ;
+        }
+        #in2{
+            margin-right: 20px;
+            color:rgb(243, 9, 9) ;
+        }
+        #in3{
+            margin-right: 20px;
+            color:rgb(197, 23, 197) ;
+        }
+        #box{
+            top:65px ;
+            left: 90px;
+            position: absolute;
+            height: 1000px;
+            width: 1350px;
+        }
+        .box1{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .box2{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20)
+        }
+        .box3{
+            box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        }
+        body{
+           background-image: url("/ass-12/green.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 700px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="box">
+    <div id="left" class="box1">
+        <div id="top1">
+            <center>
+                <i class="fa-solid fa-dollar-sign sign">26</i>
+                <p id="p1">per month</p>
+            </center>
+        </div>
+        <div id="bottom1">
+        <center><h1 id="hea1">BASIC</h1></center>
+       <center>
+        <table>
+            <tr>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td>Data    100GB</td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td>Speed   upto 40 Mbps</td>                
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td>Calls   100 calls Local/STD</td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td>AmazonPrime  1year</td>
+            </tr>
+        </table>
+        <br>
+        <input id="in1" type="button" value="Choose">
+        </center>
+        </div>
+    </div>
+    <div id="right" class="box2">
+        <div id="top2">
+            <i class="fa-solid fa-dollar-sign sign2">35</i>
+          <center>
+              <p id="p2">per month</p>
+            </center> 
+        </div>
+        <div id="bottom2">
+            <center><h1 id="hea1">ULTIMATE</h1></center>
+            <center>
+                <table>
+                    <tr>
+                        <td><i class="fa-solid fa-check"></i></td>
+                        <td>Data    Unlimited</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-check"></i></td>
+                        <td>Speed   upto 100 Mbps</td>                
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-check"></i></td>
+                        <td>Calls   Unlimited Local/STD</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-check"></i></td>
+                        <td>AmazonPrime and Netflix 1year</td>
+                    </tr>
+                </table>
+                <br>
+                 <input id="in2" type="button" value="Choose">
+             </center>
+
+        </div>
+    </div>
+    <div id="middle" class="box3">
+        <div id="top3">
+            <i class="fa-solid fa-dollar-sign sign3">30</i>
+            <center>
+                <p id="p3">per month</p>
+              </center> 
+        </div>
+        <div id="bottom3">
+            <center><h1 id="hea1">PREMIUM</h1></center>
+            <center>
+                <table>
+                    <tr>
+                        <td><i class="fa-solid fa-check"></i></td>
+                        <td>Data    500GB</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-check"></i></td>
+                        <td>Speed   upto 1 Gbps</td>                
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-check"></i></td>
+                        <td>Calls Unlimited Local/STD</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-check"></i></td>
+                        <td>AmazonPrime 1year</td>
+                    </tr>
+                </table>
+                <br>
+                 <input id="in3" type="button" value="Choose">
+             </center>
+        </div>
+    </div>
+</div>
+</body>
+</html>
